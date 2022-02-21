@@ -1,33 +1,50 @@
 import React from 'react'
-import '../components/Mission.css'
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
+import why from '../img/why-choose-us.jpeg'
 
 const Mission = () => {
   return (
-    <div>
+      
+          
 
-<Grid container spacing={2}>
-  <Grid  item xs={4}>
-    <Paper >
-        <h3>Who we are our philosophy</h3>
-        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa corporis tempora distinctio deserunt, odit nam perspiciatis vitae illo soluta nemo! Suscipit, quas. Deserunt, cumque labore omnis voluptate perferendis amet harum.</p>
-    </Paper>
-  </Grid>
-  <Grid item xs={4}>
-    <Paper>
-    <h3>Our Philosophy</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officia vel soluta voluptatum placeat odit accusantium, dicta non facilis laboriosam eius doloribus adipisci. Veniam quis aspernatur ullam id, animi in.</p>
-        </Paper>
-  </Grid>
-  <Grid item xs={4}>
-    <Paper>
-    <h3>How we work</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit modi quibusdam quo in, maxime impedit iusto nulla deserunt eligendi officiis cum aspernatur dolore id odio nesciunt esse quasi nobis vitae!</p>
-        </Paper>
-  </Grid>
-</Grid>
-    </div>)
-    
-  }
+              <div class="content-column" style={{backgroundColor:"lightblue" , width:"100%"}}>
+              <div class="row ">
+              <div className="col-md-6 " style={{padding:"60px"}}>
+                  <h2 style={{paddingTop:"50px"}}>WHY YOU SHOULD CHOOSE US</h2>			
+                  <h4 style={{fontWeight:"50px", fontFamily:"cursive"}}>WE WORK FOR YOUR SUCCESS AND HEALTH</h4>			
+                  <p style={{paddingTop:"50px", lineHeight:"2", maxWidth:"85%"}}>We have a number of different vibrant and highly responsive teams within our agency that specialise in different areas of business so you can be sure that you won’t receive a generic service.</p>
+                      <div className="row">
+                      <div class="col-xs-12 col-md-6 col-lg-6 block column" style={{paddingTop:"40px", fontSize:"18px", lineHeight:"2"}}>
+                          <ul class="styled-list-one">
+                              <li>Responsive Team</li>
+                              <li>Fast Support</li>
+                              <li>Happy Partnership</li>
+                          </ul>
+                      </div>
+                      <div class="col-xs-12 col-md-6 col-lg-6 block column" style={{paddingTop:"40px", fontSize:"18px", lineHeight:"2"}}>
+                          <ul class="styled-list-one">
+                              <li>Constant Feedback</li>
+                              <li>Real Time Monitoring</li>
+                              <li>Quick Execution</li>
+                          </ul>
+                      </div>
+                      </div>
+
+                  </div>
+                  <div class="image-column col-md-6" >
+                <img src={why} alt="" srcset="" />
+                  
+              </div>
+              
+              </div>
+              
+
+              
+
+         
+
+      </div>
+
+  )
+}
+
 export default Mission
